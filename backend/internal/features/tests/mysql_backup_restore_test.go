@@ -570,8 +570,8 @@ func connectToMysqlContainer(version tools.MysqlVersion, port string) (*MysqlCon
 	}
 
 	dbName := "testdb"
-	password := "testpassword"
-	username := "testuser"
+	password := "rootpassword"
+	username := "root"
 	host := "localhost"
 
 	portInt, err := strconv.Atoi(port)
